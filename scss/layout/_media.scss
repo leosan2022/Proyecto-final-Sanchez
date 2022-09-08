@@ -1,0 +1,97 @@
+/*** media mobile***/
+@media (max-width:600px) {
+    .navbar-nav a {
+        float: none;
+        width: 100%;
+    }
+    .header__img{
+        @include formatter (220px,150px);
+        @include formatter2 (15%,40px);
+    }
+    .header__slogan{
+        margin-right: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+        @include formatter2 (20px,10px);
+    }
+    .pages__supersaleimg{
+        @include formatter (640px,400px);
+        @include formatter2 (auto,40px);
+    }
+    .cuerpo__newarrivalsimg{
+        @include formatter (540px,300px);
+        @include formatter2 (auto,40px);
+    }
+    .horarios{
+        font-size: small;
+    }
+    .footervisit{
+        font-size: small;
+        margin-left: 15px;
+    }
+    .contactus{
+        font-size: small;
+    }
+    .table{
+        font-size: 12px;
+        margin-left: 15px;
+    }
+    .footerimg{
+        @include formatter (120px,120px);
+        @include formatter2 (15px,20px);
+    }
+}
+/*** media desktop***/
+@media (max-width:1024px) {
+    .navbar-nav a {
+        float: none;
+        width: 100%;
+    }
+    .header__img{
+        @include formatter (400px,350px);
+        @include formatter2 (15%,40px);
+    }
+    .header__slogan{
+        margin-right: 20px;
+        font-size: 40px;
+        text-align: center;
+    }
+    h1{
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 10px;
+        @include formatter2 (20px,10px);
+    }
+    .pages__supersaleimg{
+        @include formatter (640px,400px);
+        @include formatter2 (auto,40px);
+    }
+    .cuerpo__newarrivalsimg{
+        @include formatter (540px,300px);
+        @include formatter2 (auto,40px);
+    }
+    .horarios{
+        font-size: large;
+    }
+    .footervisit{
+        font-size: large;
+        margin-left: 15px;
+    }
+    .contactus{
+        font-size: large;
+    }
+    .table{
+        font-size: 12px;
+        margin-left: 15px;
+        font-size: medium;
+    }
+    .footerimg{
+        @include formatter (220px,220px);
+        @include formatter2 (15px,20px);
+    }
+}

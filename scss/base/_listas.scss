@@ -1,0 +1,16 @@
+/*Mapas*/
+$colores:("primary":blue, "secundary":grey, "succes":green, "warning":yellow);
+
+@each $name, $color in $colores{
+    .btn-#{$name}{
+        background-color:$color;
+    }
+}
+
+@each $name, $color in $colores{
+    .text-#{$name}{
+        background-color:$color;
+    }
+}
+
+

@@ -1,0 +1,52 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B1A17;
+    font-family: BIZUDP;
+    color:#E45826;
+    font-size: large;
+    grid-column: 1 / span 6;
+    img{
+        width: 160px; 
+        height: 160px;
+        background-color: #1B1A17;
+        border-style: solid;
+        border-color: #E45826;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+    visit{
+        color:#E45826;
+        text-decoration: none;
+        font-size: large;
+        margin-left: 42px;
+    }
+}
+.table{
+    background-color:#1B1A17;
+    font-size: large;
+    color: #E45826;
+    border-style: solid;
+    border-color: #E45826;
+    margin-left: 42px;
+    }
+.horarios{
+    background-color:#1B1A17;
+    font-size: large;
+    margin-left: 42px;
+}
+.linehorarios,th,td{
+    border:1px #E6D5B8;
+    border-style: groove;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 42px;
+}
+.contactus{
+    color:#E45826;
+    text-decoration: none;
+    font-size: large;
+    margin: 42px;
+}

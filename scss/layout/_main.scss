@@ -1,0 +1,79 @@
+.cuerpo{
+    background-color: #E6D5B8;
+    supersale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        }
+        supersaleimg{
+            top: 10px;
+            left: 100px;
+            margin-left: 25px;
+            border-style: solid;
+            border-color: #E45826;
+        }
+        newarrivalsimg{
+            width: 620px;
+            height: 380px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 42px;
+            border-style: solid;
+            border-color: #E45826;
+        }
+        testproductsvid{
+            width: 600px;
+            height: 350px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 42px;
+        }
+}
+main{
+    grid-column: 1 / span 6;
+}
+.parrafo__sale{
+    margin: 50px;
+    text-align:center;
+    font-size: 35px;
+}
+/*estilos main pages*/
+.titlepages{
+    color: #E45826;
+    font-size: 30px;
+    font-family: BIZUDP;
+    text-align: center;
+    background-color:#E6D5B8;
+}
+.main__pages{
+    display: flex;
+    justify-content: center;
+    li{
+        a{
+        color:#E45826;
+        font-size: 25px;
+        font-family: BIZUDP;
+        text-align: left;
+        margin-left: 20px;
+        } 
+    }  
+}
+.pag__img{
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    width: 400px;
+    height: 280px;
+    margin-left: 45%;
+    border-style: solid;
+    border-color: #E45826;
+    supersaleimg{
+        width: 550px;
+        height: 380px;
+        margin-left: auto;
+        border-style: solid;
+        border-color: #E45826;
+    }
+}
+

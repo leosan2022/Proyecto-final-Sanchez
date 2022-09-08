@@ -1,0 +1,26 @@
+{
+  "name": "topdrummer",
+  "version": "1.0.0",
+  "description": "sale of drummers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilo.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leosan2022/prueba-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leosan2022/prueba-git/issues"
+  },
+  "homepage": "https://github.com/leosan2022/prueba-git#readme",
+  "devDependencies": {
+    "node": "^17.7.2",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}

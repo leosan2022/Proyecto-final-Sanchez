@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TopDrummer-Home</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sale of drum instrument accessories">
+    <meta name="keywords" content="html, topdrummer, drummers, shop drummer, cymbals, drums sets, drumsticks, hardware, snares">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../images/logo (1).ico">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="header row"> 
+            <section class="header__prin">
+                <div>
+                    <h1>TOP DRUMMER</h1>
+                    <article>
+                        <h2>
+                            <p class="header__slogan">The first drums store</p>
+                        </h2>
+                    </article>
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-black">
+                <div class="header__menu row">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div>
+                    <svg class="carrito" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>  
+                    </svg>
+                </div>
+                  <div class="collapse navbar-collapse row" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="header__menu" href="../index.html"> Home</a> 
+                        <a class="header__menu" href="../pages/drums sets.html">Drums sets</a>
+                        <a class="header__menu" href="../pages/cymbals.html">Cymbals</a>
+                        <a class="header__menu" href="../pages/hardware.html">Hardware</a>
+                        <a class="header__menu" href="../pages/snares.html">Snares</a>
+                        <a class="header__menu" href="../pages/snares.html">Drumsticks</a>  
+                    </div>
+                  </div>
+        </div>
+            </nav>                           
+        </header>
+        <div id="info-table">
+				<h3>carrito de compras</h3>
+				<table id="mytable"  width="1200" align="center">
+					<tr>
+						<td><input type="checkbox"  class="selectOne" /></td>
+						<td class="integral">0</td>
+						<td>0</td>
+						<td>
+							<button onclick="reduce(this)">-</button>
+							<input type="text" size="1" readonly="true" value="1"/>
+							<button onclick="plus(this)">+</button>
+						</td>
+						<td class="shopCount">0</td>
+						<td><a href="#" class="delete" onclick="deleteChild(this)">Eliminar</a></td>
+					</tr>
+					
+				</table>
+			</div>
+        <div class="container-fluid" >
+            <div class="row pag__img">
+                <div class="col-2">
+                    <a href="#" onclick="addToCart(this);"></a>
+                    <h4>Zildjian</h4>
+                    <img src="../images/cymbals2.jpg" class="img-fluid" alt="">
+                    <a href="#" onclick="addToCart(this);">
+                        <p class="cart">Add to cart</p>
+                        <span class="price">$ 150650</span>  
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#" onclick="addToCart(this);"></a>
+                    <h4>Sabian</h4>
+                    <img src="../images/cymbalssabian.jpg" class="img-fluid" alt="">
+                    <a href="#" onclick="addToCart(this);">
+                        <p class="cart">Add to cart</p>
+                        <span class="price">$ 250000</span>  
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#" onclick="addToCart(this);"></a>
+                    <h4>Paiste</h4>
+                    <img src="../images/cymbalpaiste.png" class="img-fluid" alt="">
+                    <a href="#" onclick="addToCart(this);">
+                        <p class="cart">Add to cart</p>
+                        <span class="price">$ 350000</span>  
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#" onclick="addToCart(this);"></a>
+                    <h4>Meinl</h4>
+                    <img src="../images/cymbalsmeinl.jpg" class="img-fluid" alt="">
+                    <a href="#" onclick="addToCart(this);">
+                        <p class="cart">Add to cart</p>
+                        <span class="price">$ 50000</span>  
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#" onclick="addToCart(this);"></a>
+                    <h4>Istanbul Agop</h4>
+                    <img src="../images/cymbals istambul.jpg" class="img-fluid" alt="">
+                    <a href="#" onclick="addToCart(this);">
+                        <p class="cart">Add to cart</p>
+                        <span class="price">$ 250000</span>  
+                    </a>
+                </div>
+            </div>
+            <section>
+                <h3>SUPER SALE</h3>
+        </section>
+        <div class="cuerpo__supersale row">
+            <div class="parrafo__sale col-md-4">
+                <p>Medium bright, full, warm, with a broad, sparkling crash. Big attack, swelling response, with a long, flowing sustain.</p>
+            </div>
+            <img class="cuerpo__supersaleimg col-md-5 img-fluid" src="../images/CYM2.jpg">
+        </div>
+        <section>
+            <h3>NEW ARRIVALS</h3>
+        </section>
+        <section>
+            <div class="cuerpo__supersale row">
+                <img class="cuerpo__newarrivalsimg img-fluid" src="../images/CYM1.jpg">
+                <div class="parrafo__sale col-md-4">
+                    <p>Signature Hand Cymbals are the result of years of painstaking research into classical percussion and diverse contemporary hand cymbal performance environments. </p>
+                </div>
+            </div>
+    <footer>
+        <div class="footer">
+            <section>
+                <img  class="footerimg img-fluid" src="../images/footer.jpg">
+            </section>
+            <section>
+                <a class="footervisit" href="https://www.google.com/maps/place/Memphis+Drum+Shop/@35.1218056,-89.9929331,17z/data=!3m1!4b1!4m5!3m4!1s0x887f874df8ba1687:0xb86743fcede3aa6f!8m2!3d35.1218009!4d-89.9907543?hl=es-419"target="_blank"> VISIT US</a>
+                <div>
+                    <img class="visit" src="../images/ubicación.png">
+                </div>
+            </section>
+        <section>
+            <article>
+                <p class="horarios">CUSTOMER SERVICE HOURS</p>
+                <table class="table table-dark table-hover">
+                    <tr class="linehorarios">
+                        <th>STORES</th>
+                        <th>MON-FRI</th>
+                        <th>SAT</th>
+                        <th>SUN</th>
+                    </tr>
+                    <tr>
+                        <td>MIAMI</td>
+                        <td>9 AM-8 PM</td>
+                        <td>10 AM-3 PM</td>
+                        <td>CLOSED</td>
+                    </tr>
+                    <tr>
+                        <td>NEW YORK</td>
+                        <td>8 AM-7 PM</td>
+                        <td>9 AM-2 PM</td>
+                        <td>CLOSED</td>
+                    </tr>
+                </table>
+             </article>
+             </section>
+                <section>
+             <a class="contactus" href="../pages/contactUs.html">CONTACT US</a>
+                <div>
+                    <img class="redes" src="../images/Whatsapp.png">
+                </div>
+                <div>   
+                    <img class="redes" src="../images/Instagram.png">
+                </div> 
+                <div>
+                    <img class="redes" src="../images/Facebook.png">
+                </div>
+            </main>
+            </section>
+        </div> 
+    </footer>
+    <script src="../scss/topdrummer.js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
+</body>
+</html>

@@ -1,0 +1,45 @@
+/** header**/
+.header__prin{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-end;
+}
+.header{
+    background-color: #1B1A17;
+    grid-column: 1 / span 6;
+        header__img{
+        @include formatter( 450px, 220px);
+        margin-left: 42px;
+    }
+}
+.header__slogan{
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu{
+    color: #E45826;
+    width: 120%;
+    background-color: #1B1A17;
+    font-size: 30px;
+    font-family: BIZUDP;
+    text-align: left;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.navbar-nav{
+    overflow: hidden;
+    background-color: #1B1A17;
+        a{
+        float: left;
+        display: block;
+        color: #E45826;
+        text-align:center;
+        padding: 14px 16px;
+        text-decoration: none;
+    } 
+}

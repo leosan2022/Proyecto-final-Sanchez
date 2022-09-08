@@ -1,0 +1,52 @@
+/**fuentes**/
+@font-face{
+    font-family: BIZUDP;
+    src: url(/TOPDRUMMER-SANCHEZ/fonts/BIZUDPMincho-Regular.ttf);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/**extend**/
+.h1{
+    background-color: #1B1A17;
+    color: #F0A500;
+    font-size: 95px;
+    font-family: raggedways;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-right: 90px;
+}
+.h2{
+    @extend .h1;
+    font-size: 45px;
+    font-family: BIZUDP;
+    margin-bottom: 35px;
+    margin-left: 45px;
+}
+.h3{
+    @extend .h1;
+    background-color:#E45826;
+    color:#F0A500;
+    -webkit-text-stroke-color: #1B1A17;
+    font-size: 50px;
+    border-radius: 50px;
+    border-style: groove;
+}
+.h4{
+    @extend .h3;
+    font-size: 25px;
+    font-family: BIZUDP;
+    text-align: center;
+}
+
+/**mixin*/
+@mixin formatter($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}@mixin formatter2($izquierda, $superior) {
+    margin-left: $izquierda;
+    margin-top: $superior;
+}
